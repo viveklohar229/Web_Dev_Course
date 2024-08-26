@@ -1,0 +1,17 @@
+.red{
+    color: red;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+#seconddiv{
+    background-color: aquamarine;
+    color: brown;
+}
+
+span{
+    background-color: rgb(205, 173, 48);
+    color: black;
+}
