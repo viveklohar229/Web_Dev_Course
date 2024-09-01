@@ -1,0 +1,14 @@
+ul{
+    display: flex;
+}
+nav ul li{
+    padding: 23px;
+    list-style: none;
+    /* list-style: devanagari; */
+    /* list-style-type: "🧟‍♀️"; */
+    list-style-position: inside;
+    background-color: yellow;
+    border: 2px solid black;
+    /* list-style-image: url(gif.gif); */
+    /* list-style:  "🧟‍♀️" inside url(gif.gif); */
+}
