@@ -1,0 +1,53 @@
+/* .box:first-child{
+    background-color: red;
+} */
+
+/* .box::first-line{
+    color: rgb(255, 0, 0);
+} */
+
+.boxes *{
+    color: blue;
+    border: 2px solid black;
+}
+
+/* [data-color="primary"]{
+    margin-top: 45px;
+} */
+
+/* p, a, .box, [data-color="primary"]{
+    padding-top: 45px;
+} */
+
+/* .box:nth-child(even){
+    color: red;
+    background-color: blue;
+} */
+
+.box:nth-last-child(1){
+    color: red;
+    background-color: blue;
+}
+
+.boxes::before{
+    content: "Vivek is good";
+}
+.boxes::after{
+    content: "Vivek is good";
+    color: aqua;
+    background-color: blue;
+}
+
+::selection{
+    background-color: black;
+    color: green;
+}
+
+.box::first-letter{
+    color: peru;
+    font-size: xx-large;
+}
+
+input::placeholder{
+color: rgb(77, 77, 82);
+}
