@@ -1,0 +1,35 @@
+/* Global variable */
+:root{         
+    --color: rgb(228, 50, 223);
+    --secColor:pink;
+    --defPad:23px;
+    --defOp:0.6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: var(--color);
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    opacity: var(--defOp);
+    list-style: none;
+    padding: var(--defPad);
+    border: 2px solid var(--secColor);
+}
+
+ul li:first-child{
+    /* local variable */
+    --color: rgb(240, 41, 18);
+    background-color: var(--color, blue);
+}
+.container{
+    background-color: var(--secColor);
+}
