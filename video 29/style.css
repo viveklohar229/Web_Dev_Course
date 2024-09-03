@@ -1,0 +1,69 @@
+.container{
+    border: 2px solid red;
+    display: flex;
+    height: 80vh;
+    /* justify-content: space-around; */
+    /* there is no justify-items in flexbox  */
+    /* justify-content:center; */
+    align-items: center;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+    /* align-content: center; */
+    /* align-content: flex-start; */
+    flex-flow: row wrap;
+    /* gap: 30px; */
+    /* row-gap: 40px;
+    column-gap: 20px; */
+
+    gap: 10px 40px;
+}
+
+.item{
+    /* flex-grow: 1; */
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    /* margin: 4px; */
+    background-color: purple;
+}
+
+.item1{
+    /* flex-grow: 100; */
+    /* flex-shrink: 2; */
+    align-self: flex-end;
+}
+
+.order-0{
+    order: 0;
+}
+.order-1{
+    order: 1;
+}
+.order-2{
+    order: 2;
+}
+.order-3{
+    order: 3;
+}
+.order-4{
+    order: 4;
+}
+.order-5{
+    order: 5;
+}
+.order-6{
+    order: 6;
+}
+.order-7{
+    order: 7;
+}
+.order-8{
+    order: 8;
+}
+.order-9{
+    order: 9;
+}
+
