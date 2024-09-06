@@ -1,0 +1,23 @@
+.containers{
+background-color: brown;
+width: 50vw;
+height: 45vh;
+}
+
+.box{
+background-color: blue;
+width: 5vw;
+height: 3vh;
+/* transition-property: transform; */
+/* transition: all; */
+/* transition: background-color, transform;
+transition-duration: 3s;
+transition-timing-function: ease-in-out;
+transition-delay: 1s; */
+transition: transform 3s cubic-bezier(0.53,-0.2, 0.5, 0.74) 1s;
+}
+
+.translate{
+    background-color: aqua;
+    transform: translateX(10vw) translateY(10vh) scale(2);
+}
