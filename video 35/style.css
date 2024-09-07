@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .img1{
+    width: 60vw;
+    height: 60vh;
+    /* filter: brightness(220%) contrast(44%); */
+   
+/* filter: hue-rotate(90deg); */
+/* filter: invert(75%); */
+/* filter: opacity(25%); */
+filter: saturate(30%);
+
+}
+ .img2{
+    width: 60vw;
+    height: 60vh;
+    /* filter: drop-shadow(16px 16px 20px red) invert(75%); */
+    filter: drop-shadow(16px 16px 20px aqua);
+
+}
+ .img3{
+    width: 60vw;
+    height: 60vh;
+    /* filter: grayscale(130%); */
+    filter:sepia(120%);
+}
